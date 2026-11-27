@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 250" width="1020" height="250" role="img" aria-labelledby="title desc">
+  <title id="title">Временная шкала просрочки метрик и предупреждения</title>
+  <desc id="desc">В 12:00 метрики рассчитаны. В 12:06 начинается выдержка условия, в 12:11 активно предупреждение. В 12:14 расчёт восстановлен, в 12:19 предупреждение снято.</desc>
+  <g font-family="Arial, Liberation Sans, sans-serif">
+    <g fill="#42566c" font-weight="700" font-size="18">
+      <text x="24" y="35">Метрики</text>
+      <text x="24" y="114">Оповещение</text>
+    </g>
+    <g>
+      <rect x="157" y="13" width="252" height="36" rx="7" fill="#e3f4eb"/>
+      <rect x="409" y="13" width="336" height="36" rx="7" fill="#ffefe4"/>
+      <rect x="745" y="13" width="210" height="36" rx="7" fill="#e3f4eb"/>
+      <rect x="157" y="92" width="252" height="36" rx="7" fill="#edf1f5"/>
+      <rect x="409" y="92" width="210" height="36" rx="7" fill="#fff1ce"/>
+      <rect x="619" y="92" width="126" height="36" rx="7" fill="#a14831"/>
+      <rect x="745" y="92" width="210" height="36" rx="7" fill="#fff1ce"/>
+    </g>
+    <g text-anchor="middle" font-size="17" font-weight="700" fill="#263c52">
+      <text x="283" y="37">Свежие</text>
+      <text x="577" y="37">Три просрочки</text>
+      <text x="850" y="37">Свежие</text>
+      <text x="283" y="116">Нет</text>
+      <text x="514" y="116">Выдержка</text>
+      <text x="682" y="116" fill="#fff">Активно</text>
+      <text x="850" y="116">Активно до снятия</text>
+    </g>
+    <path d="M157 168H955M157 161V175M409 161V175M619 161V175M745 161V175M955 161V175" fill="none" stroke="#52667d" stroke-width="2"/>
+    <g text-anchor="middle" font-size="18" font-weight="700" fill="#172e47">
+      <text x="157" y="198">12:00</text>
+      <text x="409" y="198">12:06</text>
+      <text x="619" y="198">12:11</text>
+      <text x="745" y="198">12:14</text>
+      <text x="955" y="198">12:19</text>
+    </g>
+    <g text-anchor="middle" font-size="15" fill="#42566c">
+      <text x="157" y="222">Расчёт</text>
+      <text x="409" y="222">Обнаружение</text>
+      <text x="619" y="222">Оповещение</text>
+      <text x="745" y="222">Восстановление</text>
+      <text x="955" y="222">Снятие</text>
+    </g>
+  </g>
+</svg>

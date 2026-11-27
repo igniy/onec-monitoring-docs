@@ -1,0 +1,20 @@
+from: markdown+tex_math_dollars
+pdf-engine: typst
+standalone: true
+table-of-contents: true
+toc-depth: 2
+citeproc: true
+bibliography: references.bib
+fail-if-warnings: true
+input-files:
+  - chapters/01-overview.md
+  - chapters/02-architecture.md
+  - chapters/03-metrics.md
+  - chapters/04-alerting.md
+  - chapters/05-diagnosis.md
+  - chapters/06-references.md
+metadata:
+  title: Мониторинг информационных баз 1С с VictoriaMetrics и Grafana
+  author: Юрий Квашнин
+  lang: ru-RU
+  papersize: a4
