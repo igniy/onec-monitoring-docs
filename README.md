@@ -30,6 +30,3 @@ make pdf
 | [`document.yaml`](document.yaml) | Порядок глав и параметры Pandoc |
 | [`Makefile`](Makefile) | Цели сборки и очистки PDF |
 
-Оформление PDF основано на [шаблоне учебного пособия `kisscm`](https://github.com/true-grue/kisscm/blob/main/template.docx). Стиль библиографии Максима Юркина и Дмитрия Павлова взят из [репозитория `kisscm`](https://github.com/true-grue/kisscm/blob/main/gost-r-7-0-5-2008-numeric-iaa.csl) и распространяется по [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
-
-Шрифт [Liberation Serif](https://github.com/liberationfonts/liberation-fonts/releases/tag/2.1.5) поставляется со сборкой под [SIL Open Font License 1.1](styles/fonts/LICENSE). Его метрики совместимы с Times New Roman из шаблона Word.
