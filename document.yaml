@@ -1,10 +1,14 @@
 from: markdown+tex_math_dollars
 pdf-engine: typst
+pdf-engine-opts:
+  - --font-path=styles/fonts
+template: styles/document.typ
 standalone: true
 table-of-contents: true
 toc-depth: 2
 citeproc: true
 bibliography: references.bib
+csl: styles/gost-r-7-0-5-2008-numeric-iaa.csl
 fail-if-warnings: true
 input-files:
   - chapters/01-overview.md
@@ -18,3 +22,4 @@ metadata:
   author: Юрий Квашнин
   lang: ru-RU
   papersize: a4
+  link-citations: true
